@@ -7,9 +7,7 @@ namespace Calculadora
     {
         static void Main(string[] args)
         {
-            //Console.Write("Número de operações: ");
-            //int numerodesejadoperaçoes = Convert.ToInt32(Console.ReadLine());
-            //int operaçoesrealizadas = 0;
+            
             bool continuar = true;
             do
             {
@@ -46,13 +44,13 @@ namespace Calculadora
 
                 Console.Write("Digite o primeiro número: ");
 
-                //String strprimeironumero = Console.ReadLine(); 
+                
 
                 decimal primeironumero = Convert.ToDecimal(Console.ReadLine());
                 Console.WriteLine();
                 Console.Write("Digite o segundo número: ");
 
-                // String strsegundonumero = Console.ReadLine();
+                
 
                 decimal segundonumero = Convert.ToDecimal(Console.ReadLine());
 
